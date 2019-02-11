@@ -25,6 +25,8 @@
     </header>
 
     <div class="container">
+      <section id="likes"></section>
+      
       <section id="main_content">
         {{ content }}
       </section>
@@ -46,15 +48,32 @@
     var $comments = document.querySelector('#comments_feed');
     $comments.appendChild($div);
   };
+  
+  var addLikesWidget = function () {
+    var $div = document.createElement('div');
+    $div.classList.add('fb-like');
+    $div.setAttribute('data-href', window.location.href.split('?')[0]);
+    $div.setAttribute('data-layout', 'standart');
+    $div.setAttribute('data-action', 'like');
+    $div.setAttribute('data-size', 'large');
+    $div.setAttribute('data-show-faces', 'true');
+    $div.setAttribute('data-share', 'true');
+    $div.setAttribute('data-width', '100%');
+
+    var $likes = document.querySelector('#likes');
+    $likes.appendChild($div);
+  }
 </script>
     
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v3.2&appId=437561723054689&autoLogAppEvents=1';
+  js.src = 'https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v3.2&appId=2261902074060659&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
+  
   addCommentsWidget();
+  addLikesWidget();
 }(document, 'script', 'facebook-jssdk'));</script>
 
     {% if site.google_analytics %}

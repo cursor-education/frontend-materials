@@ -10,8 +10,22 @@ body {
 
 header {
   border-bottom: none;
-  padding: 41px 0 45px 0;
+  padding: 60px 0 65px 0;
   background: #F5F5F5;
+
+  background: url(https://cursor.education/static/images/parallax-img.png) center no-repeat;
+  position: relative;
+  height: 100%;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgb(255, 255, 255));
+  }
 
   h1 {
     color: #000;
@@ -23,6 +37,11 @@ header {
     margin-top: 0;
     margin-bottom: 0;
   }
+}
+
+.container {
+  z-index: 1;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {

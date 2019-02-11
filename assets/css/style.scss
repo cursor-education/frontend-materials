@@ -30,11 +30,19 @@ header {
   h1 {
     color: #000;
     text-shadow: none;
+
+    font-family: 'Noto Serif', serif;
     font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 0em;
     
     &:before {
       font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     }
+  }
+  
+  h2 {
+    color: rgba(0, 0, 0, 0.4);
   }
   
   h1, h2 {
@@ -63,5 +71,9 @@ a {
 }
 
 p {
-  line-height: 1.7em;
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
 }

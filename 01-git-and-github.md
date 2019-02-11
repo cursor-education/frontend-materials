@@ -2,6 +2,6 @@
 title:  "Git & GitHub"
 ---
 
-# Git & Github
+## Git & Github
 
 lorem ipsum

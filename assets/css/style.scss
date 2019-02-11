@@ -11,6 +11,7 @@ body {
 header {
   border-bottom: none;
   padding: 60px 0 65px 0;
+  margin-bottom: 0px;
   background: #F5F5F5;
 
   background: url(https://cursor.education/static/images/parallax-img.png) center no-repeat;
@@ -49,6 +50,10 @@ header {
     margin-top: 0;
     margin-bottom: 0;
   }
+}
+
+#likes {
+  margin-bottom: 50px;
 }
 
 #comments {

@@ -1,6 +1,6 @@
 ---
 title:  "Правила навчання – CURSOR Education"
-description: ["test"]
+description: ["Як відбувається навчання в CURSOR Education"]
 ---
 
 # Як відбувається навчання?

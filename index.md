@@ -2,40 +2,18 @@
 title:  "Welcome to CURSOR Education!"
 ---
 
-## Welcome to GitHub Pages
+## Why are CURSOR Education?
 
-You can use the [editor on GitHub](https://github.com/cursor-education/frontend-materials/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Lorem ipsum dolor sit amet [CURSOR Education](https://cursor.education/), consectetur adipiscing elit. Integer quis justo ex. Quisque at porta quam. Quisque sed metus tincidunt, congue quam ultricies, convallis ex. Praesent maximus arcu quam, id tincidunt tellus facilisis ut. Morbi convallis velit mattis dui laoreet, ut imperdiet ligula tincidunt. Quisque odio enim, feugiat porta velit non, blandit laoreet ante. Morbi a sem sed velit ultricies consequat eget et sapien. Sed aliquet mi et lectus accumsan dictum.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Why your courses are so efficient?
 
-### Markdown
+**Welcome to the most efficient programming courses in Ukraine!** Maecenas erat risus, laoreet ac nisl id, viverra euismod risus. Etiam porta ipsum augue, in commodo mauris mollis at. Donec malesuada aliquam tristique. Maecenas efficitur urna ornare volutpat tempor. Nulla tincidunt condimentum mattis. Nulla fringilla arcu a mi fermentum elementum. Vestibulum at ex est. Quisque vitae varius massa, ac dapibus lacus.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How education process looks like?
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cursor-education/frontend-materials/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Sed iaculis nunc vel efficitur ornare. Suspendisse potenti. Donec bibendum, est sed feugiat congue, nisl dui aliquet erat, nec accumsan ex massa id sapien. In mollis pharetra scelerisque. Sed ornare pharetra arcu, ac condimentum sem tincidunt quis. Praesent blandit, felis vel convallis bibendum, nibh nulla facilisis nisi, eget porttitor purus ipsum quis lectus. Curabitur maximus tempor nibh, ut hendrerit purus facilisis vel. Pellentesque non dui sed felis faucibus congue. Vestibulum tincidunt aliquam augue, id molestie diam pretium commodo. Quisque dapibus sem a quam aliquam, lacinia vulputate orci tincidunt. In ligula ex, hendrerit non imperdiet ac, semper at nisi. Proin posuere eleifend pretium. Fusce porta, velit non blandit lobortis, ligula elit fermentum sapien, sed pellentesque erat neque eu ex.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+support@cursor.education

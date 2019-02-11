@@ -1,5 +1,5 @@
 ---
-title:  "Network & HTTP Protocol"
+title: Network & HTTP Protocol
 ---
 
 # Network & HTTP Protocol

@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
 
     <header>
       <div class="container">
@@ -25,7 +26,33 @@
       <section id="main_content">
         {{ content }}
       </section>
+      
+      <section id="comments">
+        window.location.href.split('?')[0]
+        <div class="fb-comments" data-href="https://frontend-materials.cursor.education/00-rules" data-numposts="5"></div>
+      </section>
     </div>
+    
+<script>
+  var addCommentsWidget = function() {
+    var $div = document.createElement('div');
+    $div.classList.add('fb-comments');
+    $div.setAttribute('data-href', window.location.href.split('?')[0]);
+    $div.setAttribute('data-numposts', '5');
+
+    var $comments = document.querySelector('#comments');
+    $comments.appendChild($div).
+  };
+</script>
+    
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=437561723054689&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+  addCommentsWidget();
+}(document, 'script', 'facebook-jssdk'));</script>
 
     {% if site.google_analytics %}
       <script>

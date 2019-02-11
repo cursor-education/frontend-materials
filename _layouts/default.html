@@ -35,7 +35,8 @@
     var $div = document.createElement('div');
     $div.classList.add('fb-comments');
     $div.setAttribute('data-href', window.location.href.split('?')[0]);
-    $div.setAttribute('data-numposts', '5');
+    $div.setAttribute('data-numposts', '10');
+    $div.setAttribute('data-width', '100%');
 
     var $comments = document.querySelector('#comments');
     $comments.appendChild($div);

@@ -28,12 +28,12 @@ header {
   }
 
   h1 {
-    color: #000;
+    color: rgb(72,104,173);
     text-shadow: none;
 
     font-family: 'Noto Serif', serif;
     font-size: 42px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0em;
     
     &:before {
@@ -61,11 +61,11 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ca5c24;
+  color: rgb(72,104,173);
   text-shadow: none;
   
   font-family: 'Noto Serif', serif;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0px;
 }
 

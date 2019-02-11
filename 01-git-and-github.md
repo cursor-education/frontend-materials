@@ -1,5 +1,5 @@
 ---
-title:  "Git & GitHub"
+title: Git & GitHub
 ---
 
 ## Git & Github

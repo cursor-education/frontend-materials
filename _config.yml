@@ -2,6 +2,6 @@ theme: jekyll-theme-hacker
 sass:
   style: compressed
 
-title: [FrontEnd Direction materials]
-description: [CURSOR Education school. All rights reserved.]
+title: FrontEnd Direction materials
+description: CURSOR Education school. All rights reserved.
 google_analytics: [Your Google Analytics tracking ID]

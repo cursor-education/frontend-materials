@@ -144,7 +144,7 @@ Git: Basic Snapshotting
 
 ## Staging
 
-`git add` adds file contents to the staging area 
+`git add` – adds file contents to the staging area 
 
 ```
 $ git status -s
@@ -165,7 +165,7 @@ AM README
 A  hello.rb
 ```
 
-`git status` adds file contents to the staging area
+`git status` – adds file contents to the staging area
 
 ```
 $ git status -s
@@ -177,7 +177,7 @@ M  README
  D hello.rb
 ```
 
-`git commit` records a snapshot of the staging area 
+`git commit` – records a snapshot of the staging area 
 
 ```
 $ git config --global user.name 'Your Name'
@@ -196,7 +196,7 @@ $ git status
 nothing to commit (working directory clean)
 ```
 
-`git push` push your new branches and data to a remote repository
+`git push` – push your new branches and data to a remote repository
 
 ```
 $ git push github master
@@ -209,7 +209,7 @@ To git@github.com:schacon/hw.git
  * [new branch]      master -> master
 ```
 
-`git pull` fetch from a remote repo and try to merge into the current branch
+`git pull` – fetch from a remote repo and try to merge into the current branch
 
 ```
 $ git fetch github
@@ -226,7 +226,7 @@ From github.com:schacon/hw
  * [new branch]      lisp       -> github/lisp
  ```
  
-`git remote` list, add and delete remote repository aliases 
+`git remote` – list, add and delete remote repository aliases 
 
 ```
 $ git remote
@@ -249,6 +249,7 @@ Ignored files are usually build artifacts and machine generated files that can b
 * hidden system files, such as .DS_Store or Thumbs.db
 * personal IDE config files, such as .idea/workspace.xml
 
+
 ```
 $ echo debug.log >> .gitignore
 $ git rm --cached debug.log
@@ -259,6 +260,7 @@ $ git commit -m "Start ignoring debug.log"
 More: [https://www.atlassian.com/git/tutorials/saving-changes/gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 
 Gitignore templates: [https://github.com/github/gitignore](https://github.com/github/gitignore)
+
 Create useful .gitignore files for your project: [https://www.gitignore.io/](https://www.gitignore.io/)
 
 ## Branches (create, push, remove)
@@ -291,7 +293,7 @@ $ git log --oneline --decorate --graph --all
 * 98ca9 initial commit of my project
 ```
 
-more: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+More: [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 ## Merging (merge, conflicts, rebase, cherry-pick)
 
@@ -303,9 +305,9 @@ $ git checkout <receiving>
 $ git merge <branch name>
 ```
 
-more: https://www.atlassian.com/git/tutorials/using-branches/git-merge
+More: [https://www.atlassian.com/git/tutorials/using-branches/git-merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
-conflicts: https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+Conflicts: [https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
 
 ## Workflow (a daily file circle, gitflow)
 
@@ -337,6 +339,7 @@ What is difference between https and ssh?
 
 ![](https://pages.github.com/images/slideshow/foundation.png)
 
+
 ```
 $ cd username.github.io
 $ echo "Hello World" > index.html
@@ -348,7 +351,7 @@ $ git push -u origin master
 
 More: [https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
-example:
+Example:
 * [https://github.com/cursor-education/frontend-materials/](https://github.com/cursor-education/frontend-materials/)
 * [https://frontend-materials.cursor.education](https://frontend-materials.cursor.education)
 
@@ -356,11 +359,11 @@ example:
 
 ![](https://image.slidesharecdn.com/princetonjuggitgithub-131023134219-phpapp02/95/princeton-jug-gitgithub-28-638.jpg?cb=1382535789)
 
-more: [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+More: [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-more: [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
+More: [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
 
-more: [https://help.github.com/articles/creating-a-pull-request-from-a-fork/](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+More: [https://help.github.com/articles/creating-a-pull-request-from-a-fork/](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 ## Gist
 
@@ -372,8 +375,8 @@ more: [https://help.github.com/articles/creating-a-pull-request-from-a-fork/](ht
 
 ![](https://d33wubrfki0l68.cloudfront.net/541d89b49cfeb577c7ba61491899adeac8bdf4d0/2826b/assets/images/dillinger.png)
 
-more: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+More: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-online editors:
-* [https://dillinger.io/]
-* [https://stackedit.io/]
+Online editors:
+* [https://dillinger.io/](https://dillinger.io/)
+* [https://stackedit.io/](https://stackedit.io/)

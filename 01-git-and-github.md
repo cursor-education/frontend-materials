@@ -43,6 +43,9 @@ Generation 0
 
 Generation 1 - File Locks
 
+* Each file is locked when it's editing by another person
+* Until editing will not be done – file will be not possible to update by another person
+
 Generation 2 - Central VCS (i.e. SVN)
 
 ![](http://new.tinygrab.com/7020c0e8b0682abff9a5e19670fffb76ddc6ad6280.png)
@@ -59,7 +62,7 @@ Distributed and centralized version control:
 * centralized  (example: Subversion)
 * distributed (DVSC)  – more modern, runs faster, is less prone to errors, has more features, more complex to understand (example: Mercurial, Git)
 
-Central VCS
+**Central VCS**
 
 ![](http://new.tinygrab.com/7020c0e8b0682abff9a5e19670fffb76ddc6ad6280.png)
 
@@ -67,7 +70,7 @@ There is just one repository:
 * You commit
 * They update
 
-Distributed version control diagram
+**Distributed version control diagram**
 
 ![](http://new.tinygrab.com/7020c0e8b0d7c0e942139e52d8c801e7c1bc7b141f.png)
 
@@ -95,13 +98,13 @@ Why Git? because:
 
 ## Setup Git
 
-* MacOs: http://code.google.com/p/git-osx-installer/downloads/list?can=3
-* Linux: http://git-scm.com/download/linux
-* Mac: http://git-scm.com/download/mac
-* Win: http://git-scm.com/download/win
-* Win: https://git-for-windows.github.io/
-* Win: https://desktop.github.com
-* TortoiseGit
+* MacOs: [http://code.google.com/p/git-osx-installer/downloads/list?can=3](http://code.google.com/p/git-osx-installer/downloads/list?can=3)
+* Linux: [http://git-scm.com/download/linux](http://git-scm.com/download/linux)
+* Mac: [http://git-scm.com/download/mac](http://git-scm.com/download/mac)
+* Win: [http://git-scm.com/download/win](http://git-scm.com/download/win)
+* Win: [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
+* Win: [https://desktop.github.com](https://desktop.github.com)
+* [TortoiseGit](https://tortoisegit.org/)
 
 ## Configuring
 
@@ -253,7 +256,7 @@ rm 'debug.log'
 $ git commit -m "Start ignoring debug.log"
 ```
 
-[https://www.atlassian.com/git/tutorials/saving-changes/gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+More: [https://www.atlassian.com/git/tutorials/saving-changes/gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 
 Gitignore templates: [https://github.com/github/gitignore](https://github.com/github/gitignore)
 Create useful .gitignore files for your project: [https://www.gitignore.io/](https://www.gitignore.io/)
@@ -310,11 +313,11 @@ conflicts: https://www.atlassian.com/git/tutorials/using-branches/merge-conflict
 
 ## GitHub Overview
 
-https://github.com
+[https://github.com](https://github.com)
 
-https://github.com/itspoma
+[https://github.com/itspoma](https://github.com/itspoma)
 
-https://github.com/cursor-education
+[https://github.com/cursor-education](https://github.com/cursor-education)
 
 ## GitHub filling profile (create Github repo, clone and push)
 
@@ -343,23 +346,25 @@ $ git commit -m "Initial commit"
 $ git push -u origin master
 ```
 
-more: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+More: [https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 example:
-* https://github.com/cursor-education/frontend-materials/
-* https://frontend-materials.cursor.education
+* [https://github.com/cursor-education/frontend-materials/](https://github.com/cursor-education/frontend-materials/)
+* [https://frontend-materials.cursor.education](https://frontend-materials.cursor.education)
 
 ## GitHub Fork & PR (why we need fork, PR for facebook/react)
 
 ![](https://image.slidesharecdn.com/princetonjuggitgithub-131023134219-phpapp02/95/princeton-jug-gitgithub-28-638.jpg?cb=1382535789)
 
 more: [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+
 more: [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
+
 more: [https://help.github.com/articles/creating-a-pull-request-from-a-fork/](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 ## Gist
 
-https://gist.github.com/
+[https://gist.github.com/](https://gist.github.com/)
 
 ![](https://i.stack.imgur.com/tN7Nu.jpg)
 
@@ -369,6 +374,6 @@ https://gist.github.com/
 
 more: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-online editor:
-* https://dillinger.io/
-* https://stackedit.io/
+online editors:
+* [https://dillinger.io/]
+* [https://stackedit.io/]

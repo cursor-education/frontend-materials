@@ -109,10 +109,21 @@ a {
   text-shadow: none;
 }
 
-p {
+p,
+ul li {
   font-family: 'Crimson Text', serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 1.58;
   letter-spacing: -.003em;
+}
+
+ul li {
+  list-style-image: none;
+  line-height: 1.7;
+}
+
+code.highlighter-rouge {
+  background: rgba(243, 243, 243, 0.9);
+  color: #000;
 }

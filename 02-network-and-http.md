@@ -16,13 +16,16 @@ lorem ipsum
 
 _Advanced Research Projects Agency_
 
+
 ![](https://www.electronicproducts.com/uploadedImages/Interconnections/Wire_and_Cable/9.gif)
 
 _2000, The Internet spreads like wildfire. Internet is using by 40% of the entire human population_
 
+
 ![](http://www.lgcnsblog.com/wp-content/uploads/2015/05/IO_01.png)
 
 _Evolution of Internet of Things_
+
 
 ## Чому мені (frontend розробнику) це потрібно знати?
 
@@ -30,9 +33,7 @@ _Evolution of Internet of Things_
 
 ## Що таке Server?
 
-![](https://pbs.twimg.com/profile_images/661227370049904640/ccYcKFbO_400x400.jpg)
-
-![](https://i.pinimg.com/564x/c1/ae/ee/c1aeee49a33f0c7e7215f4fb3b7cbc69.jpg?b=t)
+![](http://www.pclaptopspal.com/assets/computers_-_Copy.jpg)
 
 ![](https://i.pinimg.com/564x/87/1e/78/871e78f1023b02e7b2e841fea4d03f15.jpg?b=t)
 
@@ -40,9 +41,15 @@ _Evolution of Internet of Things_
 
 ![](https://i.pinimg.com/564x/99/89/1b/99891b8afa9b64940f8375c07e01a170.jpg?b=t)
 
+![](https://serverental.com/wp-content/uploads/2017/07/Lenovo-x3650-M5-Intel-Xeon-E5-2620-v4-Server-for-sale.jpg)
+
 ## Як вони між собою спілкуються?
 
+Client-Server Communication
+
 ![](https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png)
+
+Request-Response model
 
 ![](https://s3.amazonaws.com/one-month-rails-production/assets/images/000/000/075/original/image01.png?1412885329)
 
@@ -56,14 +63,14 @@ _Evolution of Internet of Things_
 > 
 > Protocols in the computer world are certainly nothing like etiquette but more or less like the manners how computer components interact with each other. Convention is probably the most fitting term other than protocol.
 
-![](https://pp.vk.me/c408218/v408218522/74a6/kUSar9bW6b8.jpg)
 
-![](http://new.tinygrab.com/7020c0e8b042aad022b89fc6b54a9e824b42621719.png)
+![](https://pp.vk.me/c408218/v408218522/74a6/kUSar9bW6b8.jpg)
 
 ## Які протоколи існують?
 
-https://en.wikipedia.org/wiki/Lists_of_network_protocols
-https://www.w3.org/Protocols/
+[https://en.wikipedia.org/wiki/Lists_of_network_protocols](https://en.wikipedia.org/wiki/Lists_of_network_protocols)
+
+[https://www.w3.org/Protocols/](https://www.w3.org/Protocols/)
 
 SOAP, IP, DNS, HTTP, POP3, SMTP, FTP, NTP, IRC, etc.
 
@@ -71,41 +78,35 @@ Telegram MTProto - [https://core.telegram.org/mtproto](https://core.telegram.org
 
 ## Багатошарова архітектура (Layered architecture)
 
-![](https://images-na.ssl-images-amazon.com/images/I/51X9oIx70kL._SX425_.jpg)
-
 _pen_
-
-![](http://proline.biz.ua/images/groove-a-5-hpn-box-pack-1024x680.jpg)
+![](https://images-na.ssl-images-amazon.com/images/I/51X9oIx70kL._SX425_.jpg)
 
 _The pen in box_
-
-![](https://pp.vk.me/c304214/v304214149/5537/Snx8K3thgnk.jpg)
+![](http://proline.biz.ua/images/groove-a-5-hpn-box-pack-1024x680.jpg)
 
 _The pen in box with declaration_
-
-![](http://mmr.ua/uploaded/materials/8db0e5394f.jpg)
+![](https://pp.vk.me/c304214/v304214149/5537/Snx8K3thgnk.jpg)
 
 _The pen in box with declaration is delivering to receiver_
-
-![](http://media.static.fedoriv.com/uploads/2015/03/Nova_poshta_case9_1.jpg)
+![](http://mmr.ua/uploaded/materials/8db0e5394f.jpg)
 
 _The pen in box with declaration is delivered to receiver._
-
-![](https://pbs.twimg.com/profile_images/608402882132606976/p9NIyVb4.jpg)
+![](http://media.static.fedoriv.com/uploads/2015/03/Nova_poshta_case9_1.jpg)
 
 _The pen in box with declaration is delivered to receiver. He got it, confirmed that he is receiver and got the box._
-
-![](https://images-na.ssl-images-amazon.com/images/I/51X9oIx70kL._SX425_.jpg)
+![](https://pbs.twimg.com/profile_images/608402882132606976/p9NIyVb4.jpg)
 
 _The pen in box with declaration is delivered to receiver. He got it & confirmed personality, unboxed and got the pen._
+![](https://images-na.ssl-images-amazon.com/images/I/51X9oIx70kL._SX425_.jpg)
 
 ## Багатошарова архітектура у роботі WWW
 
 ![](https://community.fs.com/blog/wp-content/uploads/2017/11/seven-layers-of-OSI-model.png)
 
+
 ![](http://static.thegeekstuff.com/wp-content/uploads/2011/10/tcp-ip.png)
 
-ModelOSI vs TCP/IP Model.
+Model OSI vs TCP/IP Model.
 
 ## Що таке IP?
 
@@ -117,6 +118,7 @@ ModelOSI vs TCP/IP Model.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ipv6_address_leading_zeros.svg/1200px-Ipv6_address_leading_zeros.svg.png)
 
 ## Що таке Port?
+
 
 ![](https://i0.wp.com/www.dignited.com/wp-content/uploads/2018/11/laptop-ports.jpg?fit=640%2C427&ssl=1)
 
@@ -184,6 +186,7 @@ HTTP – **H**yper**T**ext **T**ransfer **P**rotocol.
 [https://www.tutorialspoint.com/http/http_methods.htm](https://www.tutorialspoint.com/http/http_methods.htm)
 
 ## HTTP headers
+
 
 ![](https://i.stack.imgur.com/1dolH.png)
 

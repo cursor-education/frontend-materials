@@ -17,14 +17,14 @@ lorem ipsum
 _Advanced Research Projects Agency_
 
 
+
 ![](https://www.electronicproducts.com/uploadedImages/Interconnections/Wire_and_Cable/9.gif)
 
 _2000, The Internet spreads like wildfire. Internet is using by 40% of the entire human population_
 
 
-![](http://www.lgcnsblog.com/wp-content/uploads/2015/05/IO_01.png)
-
 _Evolution of Internet of Things_
+![](http://www.lgcnsblog.com/wp-content/uploads/2015/05/IO_01.png)
 
 
 ## Чому мені (frontend розробнику) це потрібно знати?

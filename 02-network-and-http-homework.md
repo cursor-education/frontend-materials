@@ -6,7 +6,7 @@ title: Network & HTTP Homework
 
 ## Складна домашка
 
-tbd
+- Пояснити, як домен [frontend-materials.cursor.education](frontend-materials.cursor.education) показує те ж саме, що і на https://github.com/cursor-education/frontend-materials/.
 
 ## Проста домашка
 

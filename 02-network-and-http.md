@@ -21,13 +21,13 @@ _^ Advanced Research Projects Agency_
 _^ 2000, The Internet spreads like wildfire. Internet is using by 40% of the entire human population_
 
 
-![](/assets/image/network-and-http/iot.png)
+![](/assets/images/network-and-http/iot.png)
 
 _^ Evolution of Internet of Things_
 
 ## Чому мені (frontend розробнику) це потрібно знати?
 
-![](/assets/image/network-and-http/frontend-career-path.png)
+![](/assets/images/network-and-http/frontend-career-path.png)
 
 ## Що таке Server?
 

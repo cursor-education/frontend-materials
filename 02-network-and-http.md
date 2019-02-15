@@ -14,22 +14,20 @@ lorem ipsum
 
 ![](https://www.electronicproducts.com/uploadedImages/Interconnections/Wire_and_Cable/1(3).jpg)
 
-_Advanced Research Projects Agency_
-
-
+_^ Advanced Research Projects Agency_
 
 ![](https://www.electronicproducts.com/uploadedImages/Interconnections/Wire_and_Cable/9.gif)
 
-_2000, The Internet spreads like wildfire. Internet is using by 40% of the entire human population_
+_^ 2000, The Internet spreads like wildfire. Internet is using by 40% of the entire human population_
 
 
-_Evolution of Internet of Things_
-![](http://www.lgcnsblog.com/wp-content/uploads/2015/05/IO_01.png)
+![](/assets/image/network-and-http/iot.png)
 
+_^ Evolution of Internet of Things_
 
 ## Чому мені (frontend розробнику) це потрібно знати?
 
-![](https://careers.epam.hu/content/dam/epam/by/Career-path-updated.png)
+![](/assets/image/network-and-http/frontend-career-path.png)
 
 ## Що таке Server?
 
@@ -188,7 +186,7 @@ HTTP – **H**yper**T**ext **T**ransfer **P**rotocol.
 ## HTTP headers
 
 
-![](https://i.stack.imgur.com/1dolH.png)
+![](/assets/images/network-and-http/devtools-sample.png)
 
 ## Postman!
 

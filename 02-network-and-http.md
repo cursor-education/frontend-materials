@@ -10,6 +10,8 @@ title: Network & HTTP Протокол
 
 Варіанти?
 
+Check-list запитань:
+
 * How internet layers works?
 * What is IP and differences between IPv4/IPv6?
 * When the TCP & UDP uses?
@@ -43,8 +45,6 @@ _^ Evolution of Internet of Things_
 
 Сервером може бути любий пристрій, типу комп'ютера, ноутбука, телефона, тощо, який готовий приймати і виконувати запити ззовні.
 
-Серверна Wikipedia:
-
 ![](http://www.pclaptopspal.com/assets/computers_-_Copy.jpg)
 
 Серверна:
@@ -68,6 +68,8 @@ Client-Server Communication:
 Request-Response model _(request-reply)_:
 
 ![](https://s3.amazonaws.com/one-month-rails-production/assets/images/000/000/075/original/image01.png?1412885329)
+
+Команда `ping`:
 
 ![](/assets/images/network-and-http/request-response-sample.png)
 
@@ -97,7 +99,7 @@ Telegram MTProto - [https://core.telegram.org/mtproto](https://core.telegram.org
 
 ## Як передаються дані?
 
-або Багатошарова архітектура (Layered architecture).
+...або Багатошарова архітектура (Layered architecture).
 
 _pen:_
 
@@ -140,8 +142,11 @@ TCP/IP Model:
 ## Що таке IP?
 
 IPv4 (Internet Protocol version 4).
+
 4 294 967 296 (4 млд) унікальних адрес.
+
 Формат – 4 десяткових числа від 0 до 255 (2^8), октети.
+
 2011 року виділено останні п’ять блоків IP-адрес.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ipv4_address_Spanish.svg/750px-Ipv4_address_Spanish.svg.png)
@@ -155,11 +160,17 @@ IPv4 (Internet Protocol version 4).
 * ...
 
 IPv6.
+
 `2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d`
+
 `http://[2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d]:8080/`
+
 `0000:0000:0000:0000:0000:0000:ae21:ad12 => ::ae21:ad12`
+
 2006 release.
+
 протокол IPv6 виділяє на адресу 16 байтів (раніше на інтернет-адресу виділяли 4 байти).
+
 340 трильйонам унікальних адрес.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ipv6_address_leading_zeros.svg/1200px-Ipv6_address_leading_zeros.svg.png)
@@ -249,7 +260,7 @@ HTTP verbs (methods):
 * DELETE – removes the web object
 * TRACE, OPTIONS, ...
 
-# HTTP протокол через Telnet
+## HTTP протокол через Telnet
 
 ```
 $ telnet google.com 80
@@ -291,9 +302,11 @@ Result code and phrase:
 
 ![](/assets/images/network-and-http/devtools-sample.png)
 
-## Postman!
+## Postman and DevTools
 
 [https://www.getpostman.com/](https://www.getpostman.com/)
+
+[https://www.postman-echo.com/](https://www.postman-echo.com/)
 
 ## HTTP in Depth (в деталях)
 
@@ -301,13 +314,13 @@ Result code and phrase:
 * Sessions
 * Idempotent and Safe methods
 
-## HTTP Cookies & Sessios
+## HTTP Cookies & Sessions
 
 Cookies:
 
 ![](http://1.bp.blogspot.com/-eqm6AQyKOvA/Tr1599o-GZI/AAAAAAAABOo/W5m9t3CEek0/s1600/2.png)
 
-Sessios:
+Sessions:
 
 ![](https://media-www-asp.azureedge.net/media/3712645/webapi-cookies01.png)
 
@@ -353,3 +366,4 @@ Location: ...
 * [http:// for dummies](http://www.adrianworlddesign.com/Knowledge-Base/Web-Standards/Things-about-Hypertext/http-for-dummies)
 * [The history of the Internet explained through pictures](https://www.electronicproducts.com/Interconnections/Wire_and_Cable/The_history_of_the_Internet_explained_through_pictures.aspx)
 * [The History of Early Computing Machines, from Ancient Times to 1981](https://io9.gizmodo.com/the-history-of-early-computing-machines-from-ancient-t-549202742)
+* [Хекслет - HTTP](https://www.youtube.com/watch?v=E-q8b7Kc49w&t=0s)

@@ -89,7 +89,7 @@ Request-Response model _(request-reply)_:
 
 ## Які протоколи існують?
 
-SOAP, IP, DNS, HTTP, POP3, SMTP, FTP, NTP, IRC, etc.
+TCP, UDP, SOAP, IP, DNS, HTTP, POP3, SMTP, FTP, NTP, IRC, etc.
 
 [https://en.wikipedia.org/wiki/Lists_of_network_protocols](https://en.wikipedia.org/wiki/Lists_of_network_protocols)
 
@@ -138,6 +138,10 @@ Model OSI:
 TCP/IP Model:
 
 ![](http://static.thegeekstuff.com/wp-content/uploads/2011/10/tcp-ip.png)
+
+На кожному рівні – свій набір протоколів.
+
+Яка різниця між TCP та UDP? TCP - гарантує доставку, UDP - ні.
 
 ## Що таке IP?
 

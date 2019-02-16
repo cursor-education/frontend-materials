@@ -72,10 +72,10 @@ title: Network & HTTP Homework
    - **Expected result**
       - direct url into uploaded file
 
-#### The homework should be uploaded to Google Docs (enable sharing to everyone, make the document public).
+_The homework should be uploaded to Google Docs (enable sharing to everyone, make the document public)._
 
 ## Hometask notes
-1. The correct (!) example of HTTP request & response *(by example on http://google.ua/)*
+1. The correct (!) example of HTTP request & response *(below listed example for http://google.ua/)*
 
     - request:
     ```

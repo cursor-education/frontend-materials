@@ -1,5 +1,5 @@
 ---
-HTML/CSS homework 
+title: HTML/CSS homework 
 ---
 
 ### Task 1 (simple level)

@@ -31,7 +31,14 @@ sumRange(2, 4) // 9
 sumRange(-1, 3) // 5
 ```
 
-5. A function which prints the pyramid picture of size `n`
+5. Write a function which returns the smallest of three numbers.
+```javascript
+function min(a, b, c) { /* your code */ }
+min(10, 5, 11) // 5
+min(3, 8, 4) // 3
+```
+
+6. A function which prints the pyramid picture of size `n`
 ```javascript
 function printPyramid(n) { /* your code */ }
 printStairs(3)
@@ -40,13 +47,13 @@ printStairs(3)
 #####
 ```
 
-6. A function which transforms first and last letter to uppercase (use built in string's method).
+7. A function which transforms first and last letter to uppercase (use built in string's method).
 ```javascript
 function firstAndLastToUpper(str) { /* your code */ }
 firstAndLastToUpper('abc') // 'AbC'
 ```
 
-7. A function which returns `true` if `string` contains `ironman` or `cursor` or `ostap` otherwise returns `false`.
+8. A function which returns `true` if `string` contains `ironman` or `cursor` or `ostap` otherwise returns `false`.
 The function must be case-insensitive.
 ```javascript
 function cursorCheck(str) { /* your code */ }
@@ -54,21 +61,21 @@ cursorCheck('Hello I am OstaP') // true
 cursorCheck('Superman is here') // false
 ```
 
-8. A function which returns a string with all letters in uppercase (without built in string's method).
+9. A function which returns a string with all letters in uppercase (without built in string's method).
 The function supports only english alphabet.
 ```javascript
 function toUppercase(str) { /* your code */ }
 toUppercase('abc') // 'ABC'
 ```
 
-9. A function which removes duplication of letters in string.
+10. A function which removes duplication of letters in string.
 The function must be case-insensitive.
 ```javascript
 function removeDuplicationLetters(str) { /* your code */ }
 removeDuplicationLetters('Hello I am Iron Man') // 'Helo I am rn '
 ```
 
-10. A function that when given a number `n` returns the n-th number in the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number). The sequence starts from 1 and looks like this: 1, 1, 2, 3, 5, 8, 13, 21...
+11. A function that when given a number `n` returns the n-th number in the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number). The sequence starts from 1 and looks like this: 1, 1, 2, 3, 5, 8, 13, 21...
 ```javascript
 function fibonacci(n) { /* your code */ }
 fibonacci(3) // 2

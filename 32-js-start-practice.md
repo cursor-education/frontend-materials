@@ -10,7 +10,8 @@ title: 32-js-start-practice
 - Write "power" function.
 - Write "stringRepeat" function.
 - Write "removeLetter" function.
-- Write "countVowels" function (extend to print number of vowels and constants).
+- Write "countVowels" function.
+- Write "countVowelsAndConsonants" function.
 - Write "countOccurrence" function.
 - Write "isPalindrome" function
 - Write "findLongestWord" function.

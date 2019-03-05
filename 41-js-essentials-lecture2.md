@@ -11,4 +11,4 @@ title: JS Essential lecture 2
 5. [Callback](https://ru.hexlet.io/blog/posts/javascript-what-the-heck-is-a-callback) 
 
 
-  > [Lecture JavaScript file]()
+  > [Lecture JavaScript file](https://github.com/izyuk/frontend-materials/blob/master/assets/main.js)

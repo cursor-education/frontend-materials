@@ -1,5 +1,5 @@
 ---
-42-js-essentials
+title: 42-js-essentials
 ---
 
 ## Materials

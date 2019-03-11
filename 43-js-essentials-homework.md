@@ -65,18 +65,18 @@ concatFirstNestedArrays([[0, 1], [2, 3], [4, 5]]) // [0, 1, 2, 3, 4, 5]
 
 ```javascript
 const users = [
-  { id: 1, name: 'John', birthday: '1999-2-12' }
-  { id: 2, name: 'Bill', birthday: '1999-1-19' }
-  { id: 3, name: 'Carol', birthday: '1999-0-11' }
+  { id: 1, name: 'John', birthday: '1999-2-12' },
+  { id: 2, name: 'Bill', birthday: '1999-1-19' },
+  { id: 3, name: 'Carol', birthday: '1999-3-11' },
   { id: 4, name: 'Luce', birthday: '1999-2-22' }
 ];
 
 function usersToObject(users) { /* your code */ }
 usersToObject(users)
 // {
-//  1: { id: 1, name: 'John', birthday: '1999-2-12' }
-//  2: { id: 2, name: 'Bill', birthday: '1999-1-19' }
-//  3: { id: 3, name: 'Carol', birthday: '1999-0-11' }
+//  1: { id: 1, name: 'John', birthday: '1999-2-12' },
+//  2: { id: 2, name: 'Bill', birthday: '1999-1-19' },
+//  3: { id: 3, name: 'Carol', birthday: '1999-3-11' },
 //  4: { id: 4, name: 'Luce', birthday: '1999-2-22' }
 // };
 ```
@@ -85,23 +85,23 @@ usersToObject(users)
 
 ```javascript
 const users = [
-  { name: 'John', birthday: '1999-2-12' }
-  { name: 'Bill', birthday: '1999-1-19' }
-  { name: 'Carol', birthday: '1999-0-11' }
+  { name: 'John', birthday: '1999-2-12' },
+  { name: 'Bill', birthday: '1999-1-19' },
+  { name: 'Carol', birthday: '1999-4-11' },
   { name: 'Luce', birthday: '1999-2-22' }
 ];
 
 function filterUsersByMonth(users, month) { /* your code */ }
-filterUsersByMonth(users, 0) // [{ name: 'Carol', birthday: '1999-0-11' }]
+filterUsersByMonth(users, 0) // [{ name: 'Bill', birthday: '1999-1-19' }]
 ```
 
 12. A function returns name and age of users separated by comma that are older than 18.
 
 ```javascript
 const users = [
-  { name: 'John', birthday: '1999-6-12' }
-  { name: 'Bill', birthday: '2005-5-19' }
-  { name: 'Carol', birthday: '2003-10-11' }
+  { name: 'John', birthday: '1999-6-12' },
+  { name: 'Bill', birthday: '2005-5-19' },
+  { name: 'Carol', birthday: '2003-10-11' },
   { name: 'Luce', birthday: '2000-11-22' }
 ];
 

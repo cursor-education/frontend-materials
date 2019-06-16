@@ -10,3 +10,17 @@ title: JS Start Materials
 6. [Loops](https://www.w3schools.com/js/js_loop_for.asp) 
 7. [Switch statement](https://www.w3schools.com/js/js_switch.asp) 
 8. [Function expression](https://www.w3schools.com/js/js_functions.asp)
+
+
+## **How to open the developer console in Chrome/Firefox/Safari:**
+https://support.monday.com/hc/en-us/articles/360002197259-How-to-Open-the-Developer-Console-in-your-Browser
+
+*Note: preferably use developer console in Chrome.*
+
+
+## **Slides:**
+https://docs.google.com/presentation/d/1zLMh2uHQ9CaB1QBk-nAcEQ-dVsJzH2ULMvpq7beVs6w/edit?usp=sharing
+
+
+## **Code examples:**
+https://github.com/daryaskopyuk/CURSOR/tree/master/JS_essentials

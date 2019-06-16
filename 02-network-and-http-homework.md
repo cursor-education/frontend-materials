@@ -6,7 +6,10 @@ title: Network & HTTP Homework
 
 ## Advanced homework
 
-1. Explain, how domain [frontend-materials.cursor.education](frontend-materials.cursor.education) is showing the same content, as on https://github.com/cursor-education/frontend-materials/.
+1. Explain, how domain
+   [frontend-materials.cursor.education](https://frontend-materials.cursor.education)
+   is showing the same content, as on
+   https://github.com/cursor-education/frontend-materials/.
 1. Using [www.postman-echo.com](https://www.postman-echo.com/) play with **Cookies**
    - **expected results**: http packagies with request/response
 1. Using [www.postman-echo.com](https://www.postman-echo.com/) and telnet (or any extension for manual http request built & send) play with **Digest Auth**

@@ -52,7 +52,7 @@ minMax([1, 4, 8, 2, 20]) // { max: 20, min: 1 }
 8. A function that returns average of numbers in array.
 ```javascript
 function average(arr) { /* your code */ }
-minMax([1,4,2]) // 2.33
+average([1,4,2]) // 2.33
 ```
 
 9. A function which concats all first-nested arrays in one array (use `reduce`):
